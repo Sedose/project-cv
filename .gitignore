@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.class
+*.jar
+*.war
+*.ear
+
+# SBT specific
+target/
+project/target/
+project/project/
+
+# SBT with Scala 3 specific
+.metals/
+.bloop/
+.cache/
+.history/
+.worksheet/
+*.bloop
+*.bsp
+.idea/
+*.dot
+*.log
+
+# IDEA specific
+.idea/
+*.iws
+*.iml
+*.ipr
+.DS_Store
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+cache-main/
+.history
+
+# VS Code specific
+.vscode/
+
+# Scala, SBT, and IntelliJ caches and logs
+.cache/
+.project/
+.target/
+lib_managed/
+src_managed/
+dist/
+logs/
+
+# MacOS specific
+.DS_Store
+
+# Build directories
+/dist/
+/tmp
